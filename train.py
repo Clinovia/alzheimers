@@ -1,3 +1,25 @@
+"""
+Shape: (2430, 22)
+Target_24m
+0    1883
+1     547
+Name: count, dtype: int64
+Mean of empty slice
+
+==============================
+STAGE 1: CLINICAL PROGRESSION MODEL
+==============================
+AUC            : 0.9151
+Best Threshold : 0.1121
+Accuracy       : 0.8292
+Sensitivity    : 0.8991
+Specificity    : 0.8090
+
+Confusion Matrix:
+[[305  72]
+ [ 11  98]]
+ """
+
 import pandas as pd
 import numpy as np
 import json
